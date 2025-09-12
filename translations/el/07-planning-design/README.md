@@ -264,7 +264,7 @@ pprint(json.loads(response_content))
 }
 ```
 
-Ένα παράδειγμα notebook με τον προηγούμενο κώδικα είναι διαθέσιμο [εδώ](07-autogen.ipynb).
+Ένα παράδειγμα notebook με τον προηγούμενο κώδικα είναι διαθέσιμο [εδώ](../../../07-planning-design/07-autogen.ipynb).
 
 ### Επαναληπτικός Σχεδιασμός
 

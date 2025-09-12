@@ -264,7 +264,7 @@ pprint(json.loads(response_content))
 }
 ```
 
-מחברת לדוגמה עם קטע הקוד הקודם זמינה [כאן](07-autogen.ipynb).
+מחברת לדוגמה עם קטע הקוד הקודם זמינה [כאן](../../../07-planning-design/07-autogen.ipynb).
 
 ### תכנון איטרטיבי
 

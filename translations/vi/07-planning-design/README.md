@@ -263,7 +263,7 @@ Kết quả từ đoạn mã trước đó sẽ được sử dụng để đị
 }
 ```
 
-Một notebook ví dụ với đoạn mã trên có sẵn [tại đây](07-autogen.ipynb).
+Một notebook ví dụ với đoạn mã trên có sẵn [tại đây](../../../07-planning-design/07-autogen.ipynb).
 
 ### Lập Kế Hoạch Lặp
 

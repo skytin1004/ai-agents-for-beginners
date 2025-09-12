@@ -263,7 +263,7 @@ pprint(json.loads(response_content))
 }
 ```
 
-包含上述代码示例的示例笔记本可在[此处](07-autogen.ipynb)找到。
+包含上述代码示例的示例笔记本可在[此处](../../../07-planning-design/07-autogen.ipynb)找到。
 
 ### 迭代规划
 

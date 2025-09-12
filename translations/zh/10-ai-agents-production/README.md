@@ -66,7 +66,7 @@ _**注意：** 部署安全且值得信赖的 AI Agent 非常重要。请查看[
 
 **自动评估指标：** 您还可以设置自动评估。例如，您可以使用 LLM 对 Agent 的输出进行评分，例如是否有帮助、准确或无害。还有一些开源库可以帮助您评估 Agent 的不同方面。例如，[RAGAS](https://docs.ragas.io/) 用于 RAG Agent，[LLM Guard](https://llm-guard.com/) 用于检测有害语言或提示注入。
 
-实际上，这些指标的组合可以最好地覆盖 AI Agent 的健康状况。在本章的[示例笔记本](./code_samples/10_autogen_evaluation.ipynb)中，我们将展示这些指标在实际案例中的表现，但首先，我们将学习一个典型的评估工作流程。
+实际上，这些指标的组合可以最好地覆盖 AI Agent 的健康状况。在本章的[示例笔记本](code_samples/10_autogen_evaluation.ipynb)中，我们将展示这些指标在实际案例中的表现，但首先，我们将学习一个典型的评估工作流程。
 
 ## 为 Agent 添加监控
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-本章的[示例笔记本](./code_samples/10_autogen_evaluation.ipynb)将演示如何为 AutoGen Agent 添加监控。
+本章的[示例笔记本](code_samples/10_autogen_evaluation.ipynb)将演示如何为 AutoGen Agent 添加监控。
 
 **手动创建 Span：** 尽管监控库提供了良好的基础，但在某些情况下可能需要更详细或自定义的信息。您可以手动创建 Span 来添加自定义应用逻辑。更重要的是，您可以通过自定义属性（也称为标签或元数据）丰富自动或手动创建的 Span。这些属性可以包括业务特定数据、中间计算或任何可能对调试或分析有用的上下文，例如 `user_id`、`session_id` 或 `model_version`。
 
@@ -161,7 +161,7 @@ _离线评估 -> 部署 -> 在线监控 -> 收集新的失败案例 -> 添加到
 
 ## 实践中的应用
 
-在[本节的示例笔记本](./code_samples/10_autogen_evaluation.ipynb)中，我们将看到如何使用可观测性工具来监控和评估代理的示例。
+在[本节的示例笔记本](code_samples/10_autogen_evaluation.ipynb)中，我们将看到如何使用可观测性工具来监控和评估代理的示例。
 
 ### 对生产环境中的AI代理有更多疑问？
 

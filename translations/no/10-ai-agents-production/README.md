@@ -66,7 +66,7 @@ Her er noen av de vanligste metrikker som observabilitetsverktøy overvåker:
 
 **Automatiserte evalueringsmetrikker:** Du kan også sette opp automatiserte evalueringer. For eksempel kan du bruke en LLM til å vurdere agentens output, f.eks. om det er nyttig, nøyaktig eller ikke. Det finnes også flere åpne kildebiblioteker som hjelper deg med å vurdere ulike aspekter av agenten. F.eks. [RAGAS](https://docs.ragas.io/) for RAG-agenter eller [LLM Guard](https://llm-guard.com/) for å oppdage skadelig språk eller promptinjeksjon.
 
-I praksis gir en kombinasjon av disse metrikker den beste dekningen av en AI-agents helse. I dette kapitlets [eksempelskript](./code_samples/10_autogen_evaluation.ipynb) viser vi hvordan disse metrikker ser ut i virkelige eksempler, men først skal vi lære hvordan en typisk evalueringsarbeidsflyt ser ut.
+I praksis gir en kombinasjon av disse metrikker den beste dekningen av en AI-agents helse. I dette kapitlets [eksempelskript](code_samples/10_autogen_evaluation.ipynb) viser vi hvordan disse metrikker ser ut i virkelige eksempler, men først skal vi lære hvordan en typisk evalueringsarbeidsflyt ser ut.
 
 ## Instrumenter agenten din
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-[Eksempelskriptet](./code_samples/10_autogen_evaluation.ipynb) i dette kapitlet vil demonstrere hvordan du instrumenterer AutoGen-agenten din.
+[Eksempelskriptet](code_samples/10_autogen_evaluation.ipynb) i dette kapitlet vil demonstrere hvordan du instrumenterer AutoGen-agenten din.
 
 **Manuell opprettelse av spans:** Selv om instrumenteringsbiblioteker gir et godt utgangspunkt, er det ofte tilfeller der mer detaljerte eller tilpassede data er nødvendig. Du kan manuelt opprette spans for å legge til tilpasset applikasjonslogikk. Enda viktigere, de kan berike automatisk eller manuelt opprettede spans med tilpassede attributter (også kjent som tags eller metadata). Disse attributtene kan inkludere forretningsspesifikke data, mellomliggende beregninger eller annen kontekst som kan være nyttig for feilsøking eller analyse, som `user_id`, `session_id` eller `model_version`.
 
@@ -169,7 +169,7 @@ Her er noen strategier for å håndtere kostnadene ved å sette AI-agenter i pro
 
 ## La oss se hvordan dette fungerer i praksis
 
-I [eksempelfilen for denne seksjonen](./code_samples/10_autogen_evaluation.ipynb) vil vi se eksempler på hvordan vi kan bruke observasjonsverktøy for å overvåke og evaluere agenten vår.
+I [eksempelfilen for denne seksjonen](code_samples/10_autogen_evaluation.ipynb) vil vi se eksempler på hvordan vi kan bruke observasjonsverktøy for å overvåke og evaluere agenten vår.
 
 ### Har du flere spørsmål om AI-agenter i produksjon?
 

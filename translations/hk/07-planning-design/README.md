@@ -264,7 +264,7 @@ pprint(json.loads(response_content))
 }
 ```
 
-包含上述代碼示例的示例筆記本可在 [此處](07-autogen.ipynb) 找到。
+包含上述代碼示例的示例筆記本可在 [此處](../../../07-planning-design/07-autogen.ipynb) 找到。
 
 ### 迭代規劃
 

@@ -66,7 +66,7 @@ Berikut adalah beberapa metrik paling biasa yang dipantau oleh alat pemerhatian:
 
 **Metrik Penilaian Automatik:** Anda juga boleh menyediakan penilaian automatik. Sebagai contoh, anda boleh menggunakan LLM untuk menilai output ejen contohnya sama ada ia berguna, tepat, atau tidak. Terdapat juga beberapa perpustakaan sumber terbuka yang membantu anda menilai aspek yang berbeza dari ejen. Contohnya, [RAGAS](https://docs.ragas.io/) untuk ejen RAG atau [LLM Guard](https://llm-guard.com/) untuk mengesan bahasa berbahaya atau suntikan arahan.
 
-Dalam amalan, gabungan metrik ini memberikan liputan terbaik tentang kesihatan ejen AI. Dalam [notebook contoh](./code_samples/10_autogen_evaluation.ipynb) bab ini, kami akan menunjukkan kepada anda bagaimana metrik ini kelihatan dalam contoh sebenar tetapi pertama, kami akan belajar bagaimana aliran kerja penilaian biasa kelihatan.
+Dalam amalan, gabungan metrik ini memberikan liputan terbaik tentang kesihatan ejen AI. Dalam [notebook contoh](code_samples/10_autogen_evaluation.ipynb) bab ini, kami akan menunjukkan kepada anda bagaimana metrik ini kelihatan dalam contoh sebenar tetapi pertama, kami akan belajar bagaimana aliran kerja penilaian biasa kelihatan.
 
 ## Lengkapkan Ejen Anda
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-[Notebook contoh](./code_samples/10_autogen_evaluation.ipynb) dalam bab ini akan menunjukkan cara melengkapkan ejen AutoGen anda.
+[Notebook contoh](code_samples/10_autogen_evaluation.ipynb) dalam bab ini akan menunjukkan cara melengkapkan ejen AutoGen anda.
 
 **Penciptaan Span Manual:** Walaupun perpustakaan instrumentasi menyediakan asas yang baik, terdapat kes di mana maklumat yang lebih terperinci atau tersuai diperlukan. Anda boleh mencipta span secara manual untuk menambah logik aplikasi tersuai. Lebih penting lagi, mereka boleh memperkayakan span yang dibuat secara automatik atau manual dengan atribut tersuai (juga dikenali sebagai tag atau metadata). Atribut ini boleh termasuk data khusus perniagaan, pengiraan perantaraan, atau sebarang konteks yang mungkin berguna untuk penyahpepijatan atau analisis, seperti `user_id`, `session_id`, atau `model_version`.
 
@@ -167,7 +167,7 @@ Berikut adalah beberapa strategi untuk mengurus kos semasa menggunakan AI agents
 
 ## Mari Lihat Bagaimana Ini Berfungsi dalam Praktik
 
-Dalam [notebook contoh bahagian ini](./code_samples/10_autogen_evaluation.ipynb), kita akan melihat contoh bagaimana kita boleh menggunakan alat observability untuk memantau dan menilai agent kita.
+Dalam [notebook contoh bahagian ini](code_samples/10_autogen_evaluation.ipynb), kita akan melihat contoh bagaimana kita boleh menggunakan alat observability untuk memantau dan menilai agent kita.
 
 ### Ada Lagi Soalan tentang AI Agents dalam Pengeluaran?
 

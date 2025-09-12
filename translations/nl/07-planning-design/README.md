@@ -264,7 +264,7 @@ Wat volgt is de output van de vorige code en je kunt deze gestructureerde output
 }
 ```
 
-Een voorbeeldnotebook met de vorige code is beschikbaar [hier](07-autogen.ipynb).
+Een voorbeeldnotebook met de vorige code is beschikbaar [hier](../../../07-planning-design/07-autogen.ipynb).
 
 ### Iteratief Plannen
 

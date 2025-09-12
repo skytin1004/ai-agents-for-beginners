@@ -261,7 +261,7 @@ Berikut adalah output dari kode sebelumnya, dan Anda kemudian dapat menggunakan 
 }
 ```
 
-Notebook contoh dengan cuplikan kode sebelumnya tersedia [di sini](07-autogen.ipynb).
+Notebook contoh dengan cuplikan kode sebelumnya tersedia [di sini](../../../07-planning-design/07-autogen.ipynb).
 
 ### Perencanaan Iteratif
 

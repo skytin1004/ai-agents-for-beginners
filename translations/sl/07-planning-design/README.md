@@ -262,7 +262,7 @@ Sledi izhod iz prejšnje kode, ki ga lahko nato uporabite za usmerjanje k `assig
 }
 ```
 
-Primer beležnice s prejšnjim vzorcem kode je na voljo [tukaj](07-autogen.ipynb).
+Primer beležnice s prejšnjim vzorcem kode je na voljo [tukaj](../../../07-planning-design/07-autogen.ipynb).
 
 ### Iterativno načrtovanje
 

@@ -66,7 +66,7 @@ Tu sú niektoré z najbežnejších metrík, ktoré nástroje na pozorovateľnos
 
 **Automatizované hodnotiace metriky:** Môžete tiež nastaviť automatizované hodnotenia. Napríklad môžete použiť LLM na hodnotenie výstupu agenta, napr. či je užitočný, presný alebo nie. Existuje aj niekoľko open-source knižníc, ktoré vám pomôžu hodnotiť rôzne aspekty agenta. Napr. [RAGAS](https://docs.ragas.io/) pre RAG agentov alebo [LLM Guard](https://llm-guard.com/) na detekciu škodlivého jazyka alebo injekcie promptov.
 
-V praxi kombinácia týchto metrík poskytuje najlepšie pokrytie zdravia AI agenta. V [príkladovom notebooku](./code_samples/10_autogen_evaluation.ipynb) tejto kapitoly vám ukážeme, ako tieto metriky vyzerajú v reálnych príkladoch, ale najprv sa naučíme, ako vyzerá typický hodnotiaci pracovný postup.
+V praxi kombinácia týchto metrík poskytuje najlepšie pokrytie zdravia AI agenta. V [príkladovom notebooku](code_samples/10_autogen_evaluation.ipynb) tejto kapitoly vám ukážeme, ako tieto metriky vyzerajú v reálnych príkladoch, ale najprv sa naučíme, ako vyzerá typický hodnotiaci pracovný postup.
 
 ## Inštrumentácia vášho agenta
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-[Príkladový notebook](./code_samples/10_autogen_evaluation.ipynb) v tejto kapitole ukáže, ako inštrumentovať vášho agenta AutoGen.
+[Príkladový notebook](code_samples/10_autogen_evaluation.ipynb) v tejto kapitole ukáže, ako inštrumentovať vášho agenta AutoGen.
 
 **Manuálne vytváranie spanov:** Zatiaľ čo knižnice na inštrumentáciu poskytujú dobrý základ, často existujú prípady, keď sú potrebné podrobnejšie alebo vlastné informácie. Môžete manuálne vytvárať spans na pridanie vlastnej aplikačnej logiky. Dôležitejšie je, že môžu obohatiť automaticky alebo manuálne vytvorené spans o vlastné atribúty (známe aj ako tagy alebo metadáta). Tieto atribúty môžu zahŕňať obchodne špecifické údaje, medzivýpočty alebo akýkoľvek kontext, ktorý by mohol byť užitočný na ladenie alebo analýzu, ako napríklad `user_id`, `session_id` alebo `model_version`.
 
@@ -156,7 +156,7 @@ Tu sú niektoré stratégie na riadenie nákladov pri nasadzovaní AI agentov do
 
 ## Pozrime sa, ako to funguje v praxi
 
-V [príkladovom notebooku tejto sekcie](./code_samples/10_autogen_evaluation.ipynb) uvidíme príklady, ako môžeme použiť nástroje pozorovateľnosti na monitorovanie a hodnotenie nášho agenta.
+V [príkladovom notebooku tejto sekcie](code_samples/10_autogen_evaluation.ipynb) uvidíme príklady, ako môžeme použiť nástroje pozorovateľnosti na monitorovanie a hodnotenie nášho agenta.
 
 
 ### Máte ďalšie otázky o AI agentoch v produkcii?

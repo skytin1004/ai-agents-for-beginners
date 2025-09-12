@@ -265,7 +265,7 @@ pprint(json.loads(response_content))
 }
 ```
 
-يتوفر دفتر ملاحظات يحتوي على الكود السابق [هنا](07-autogen.ipynb).
+يتوفر دفتر ملاحظات يحتوي على الكود السابق [هنا](../../../07-planning-design/07-autogen.ipynb).
 
 ### التخطيط التكراري
 

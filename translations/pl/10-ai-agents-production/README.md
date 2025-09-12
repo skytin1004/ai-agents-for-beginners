@@ -66,7 +66,7 @@ Oto niektóre z najczęściej monitorowanych metryk przez narzędzia do obserwow
 
 **Automatyczne metryki oceny:** Można również skonfigurować automatyczne oceny. Na przykład można użyć LLM do oceny wyników agenta, np. czy są pomocne, dokładne czy nie. Istnieje również kilka bibliotek open source, które pomagają oceniać różne aspekty agenta, np. [RAGAS](https://docs.ragas.io/) dla agentów RAG lub [LLM Guard](https://llm-guard.com/) do wykrywania szkodliwego języka lub wstrzykiwania podpowiedzi.
 
-W praktyce kombinacja tych metryk zapewnia najlepsze pokrycie zdrowia agenta AI. W [przykładowym notebooku](./code_samples/10_autogen_evaluation.ipynb) w tym rozdziale pokażemy, jak te metryki wyglądają w rzeczywistych przykładach, ale najpierw nauczymy się, jak wygląda typowy przepływ pracy oceny.
+W praktyce kombinacja tych metryk zapewnia najlepsze pokrycie zdrowia agenta AI. W [przykładowym notebooku](code_samples/10_autogen_evaluation.ipynb) w tym rozdziale pokażemy, jak te metryki wyglądają w rzeczywistych przykładach, ale najpierw nauczymy się, jak wygląda typowy przepływ pracy oceny.
 
 ## Instrumentowanie agenta
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-[Przykładowy notebook](./code_samples/10_autogen_evaluation.ipynb) w tym rozdziale pokaże, jak instrumentować agenta AutoGen.
+[Przykładowy notebook](code_samples/10_autogen_evaluation.ipynb) w tym rozdziale pokaże, jak instrumentować agenta AutoGen.
 
 **Ręczne tworzenie zakresów:** Chociaż biblioteki instrumentacyjne zapewniają dobrą bazę, często zdarzają się przypadki, w których potrzebne są bardziej szczegółowe lub niestandardowe informacje. Można ręcznie tworzyć zakresy, aby dodać niestandardową logikę aplikacji. Co ważniejsze, można wzbogacić automatycznie lub ręcznie tworzone zakresy o niestandardowe atrybuty (znane również jako tagi lub metadane). Te atrybuty mogą obejmować dane specyficzne dla biznesu, obliczenia pośrednie lub dowolny kontekst, który może być przydatny do debugowania lub analizy, takie jak `user_id`, `session_id` czy `model_version`.
 
@@ -170,7 +170,7 @@ Oto kilka strategii zarządzania kosztami wdrażania agentów AI w środowisku p
 
 ## Zobaczmy, jak to działa w praktyce
 
-W [przykładowym notebooku tej sekcji](./code_samples/10_autogen_evaluation.ipynb) zobaczymy przykłady, jak możemy używać narzędzi do obserwowalności, aby monitorować i oceniać naszego agenta.
+W [przykładowym notebooku tej sekcji](code_samples/10_autogen_evaluation.ipynb) zobaczymy przykłady, jak możemy używać narzędzi do obserwowalności, aby monitorować i oceniać naszego agenta.
 
 ### Masz więcej pytań dotyczących agentów AI w środowisku produkcyjnym?
 

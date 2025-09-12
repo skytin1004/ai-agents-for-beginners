@@ -66,7 +66,7 @@ Here are some common metrics monitored by observability tools:
 
 **Automated Evaluation Metrics:** Set up automated evaluations. For example, use an LLM to score the agent's output for helpfulness, accuracy, or other criteria. Open-source libraries like [RAGAS](https://docs.ragas.io/) for RAG agents or [LLM Guard](https://llm-guard.com/) for detecting harmful language or prompt injection can also help.
 
-In practice, a combination of these metrics provides the best coverage of an AI agent’s health. In this chapter's [example notebook](./code_samples/10_autogen_evaluation.ipynb), we'll show how these metrics look in real examples. But first, let's explore a typical evaluation workflow.
+In practice, a combination of these metrics provides the best coverage of an AI agent’s health. In this chapter's [example notebook](code_samples/10_autogen_evaluation.ipynb), we'll show how these metrics look in real examples. But first, let's explore a typical evaluation workflow.
 
 ## Instrument your Agent
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-The [example notebook](./code_samples/10_autogen_evaluation.ipynb) in this chapter demonstrates how to instrument your AutoGen agent.
+The [example notebook](code_samples/10_autogen_evaluation.ipynb) in this chapter demonstrates how to instrument your AutoGen agent.
 
 **Manual Span Creation:** While instrumentation libraries provide a good baseline, there are cases where more detailed or custom information is needed. You can manually create spans to add custom application logic. Additionally, you can enrich spans with custom attributes (tags or metadata), such as `user_id`, `session_id`, or `model_version`.
 
@@ -170,7 +170,7 @@ Here are some strategies to manage the costs of deploying AI agents to productio
 
 ## Let’s See How This Works in Practice
 
-In the [example notebook of this section](./code_samples/10_autogen_evaluation.ipynb), we’ll see examples of how we can use observability tools to monitor and evaluate our agent.
+In the [example notebook of this section](code_samples/10_autogen_evaluation.ipynb), we’ll see examples of how we can use observability tools to monitor and evaluate our agent.
 
 ### Got More Questions about AI Agents in Production?
 

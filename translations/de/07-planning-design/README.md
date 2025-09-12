@@ -264,7 +264,7 @@ Das Ergebnis des vorherigen Codes kann dann verwendet werden, um an `assigned_ag
 }
 ```
 
-Ein Beispiel-Notebook mit dem vorherigen Codeausschnitt ist [hier](07-autogen.ipynb) verfügbar.
+Ein Beispiel-Notebook mit dem vorherigen Codeausschnitt ist [hier](../../../07-planning-design/07-autogen.ipynb) verfügbar.
 
 ### Iterative Planung
 

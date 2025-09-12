@@ -264,7 +264,7 @@ pprint(json.loads(response_content))
 }
 ```
 
-Примерен notebook с предишния код е наличен [тук](07-autogen.ipynb).
+Примерен notebook с предишния код е наличен [тук](../../../07-planning-design/07-autogen.ipynb).
 
 ### Итеративно планиране
 

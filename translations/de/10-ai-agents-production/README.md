@@ -66,7 +66,7 @@ Hier sind einige der häufigsten Metriken, die von Beobachtungswerkzeugen überw
 
 **Automatisierte Bewertungsmetriken:** Du kannst auch automatisierte Bewertungen einrichten. Zum Beispiel kannst du ein LLM verwenden, um die Ausgabe des Agenten zu bewerten, z. B. ob sie hilfreich, genau oder nicht ist. Es gibt auch mehrere Open-Source-Bibliotheken, die dir helfen, verschiedene Aspekte des Agenten zu bewerten. Z. B. [RAGAS](https://docs.ragas.io/) für RAG-Agenten oder [LLM Guard](https://llm-guard.com/), um schädliche Sprache oder Prompt-Injection zu erkennen.
 
-In der Praxis bietet eine Kombination dieser Metriken die beste Abdeckung für die Gesundheit eines KI-Agenten. Im [Beispiel-Notebook](./code_samples/10_autogen_evaluation.ipynb) dieses Kapitels zeigen wir dir, wie diese Metriken in realen Beispielen aussehen, aber zuerst lernen wir, wie ein typischer Bewertungsworkflow aussieht.
+In der Praxis bietet eine Kombination dieser Metriken die beste Abdeckung für die Gesundheit eines KI-Agenten. Im [Beispiel-Notebook](code_samples/10_autogen_evaluation.ipynb) dieses Kapitels zeigen wir dir, wie diese Metriken in realen Beispielen aussehen, aber zuerst lernen wir, wie ein typischer Bewertungsworkflow aussieht.
 
 ## Instrumentiere deinen Agenten
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-Das [Beispiel-Notebook](./code_samples/10_autogen_evaluation.ipynb) in diesem Kapitel zeigt dir, wie du deinen AutoGen-Agenten instrumentierst.
+Das [Beispiel-Notebook](code_samples/10_autogen_evaluation.ipynb) in diesem Kapitel zeigt dir, wie du deinen AutoGen-Agenten instrumentierst.
 
 **Manuelle Span-Erstellung:** Während Instrumentierungsbibliotheken eine gute Grundlage bieten, gibt es oft Fälle, in denen detailliertere oder benutzerdefinierte Informationen benötigt werden. Du kannst Spans manuell erstellen, um benutzerdefinierte Anwendungslogik hinzuzufügen. Wichtiger ist, dass sie automatisch oder manuell erstellte Spans mit benutzerdefinierten Attributen (auch als Tags oder Metadaten bekannt) anreichern können. Diese Attribute können geschäftsspezifische Daten, Zwischenberechnungen oder jeden Kontext umfassen, der für Debugging oder Analyse nützlich sein könnte, wie `user_id`, `session_id` oder `model_version`.
 
@@ -170,7 +170,7 @@ Hier sind einige Strategien, um die Kosten für den Einsatz von AI-Agenten in de
 
 ## Schauen wir uns an, wie das in der Praxis funktioniert
 
-Im [Beispiel-Notebook dieses Abschnitts](./code_samples/10_autogen_evaluation.ipynb) sehen wir Beispiele dafür, wie wir Beobachtungstools nutzen können, um unsere Agenten zu überwachen und zu evaluieren.
+Im [Beispiel-Notebook dieses Abschnitts](code_samples/10_autogen_evaluation.ipynb) sehen wir Beispiele dafür, wie wir Beobachtungstools nutzen können, um unsere Agenten zu überwachen und zu evaluieren.
 
 ### Haben Sie weitere Fragen zu AI-Agenten in der Produktion?
 

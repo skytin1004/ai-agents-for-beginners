@@ -261,7 +261,7 @@ Yukarıdaki kodun çıktısı aşağıda verilmiştir ve bu yapılandırılmış
 }
 ```
 
-Önceki kod örneğiyle ilgili bir örnek defter [burada](07-autogen.ipynb) mevcuttur.
+Önceki kod örneğiyle ilgili bir örnek defter [burada](../../../07-planning-design/07-autogen.ipynb) mevcuttur.
 
 ### Yinelemeli Planlama
 

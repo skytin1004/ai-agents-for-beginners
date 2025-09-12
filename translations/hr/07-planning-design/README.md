@@ -264,7 +264,7 @@ Slijedi izlaz iz prethodnog koda, a zatim možete koristiti ovaj strukturirani i
 }
 ```
 
-Primjer bilježnice s prethodnim uzorkom koda dostupan je [ovdje](07-autogen.ipynb).
+Primjer bilježnice s prethodnim uzorkom koda dostupan je [ovdje](../../../07-planning-design/07-autogen.ipynb).
 
 ### Iterativno planiranje
 

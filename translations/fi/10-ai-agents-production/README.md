@@ -66,7 +66,7 @@ Tässä ovat yleisimmät mittarit, joita havainnointityökalut seuraavat:
 
 **Automaattiset arviointimittarit:** Voit myös asettaa automaattisia arviointeja. Esimerkiksi voit käyttää LLM:ää arvioimaan agentin tuotosta, esim. onko se hyödyllinen, tarkka tai ei. On myös useita avoimen lähdekoodin kirjastoja, jotka auttavat arvioimaan agentin eri osa-alueita. Esim. [RAGAS](https://docs.ragas.io/) RAG-agenteille tai [LLM Guard](https://llm-guard.com/) haitallisen kielen tai kehotemanipulaation havaitsemiseen.
 
-Käytännössä näiden mittareiden yhdistelmä antaa parhaan kattavuuden AI-agentin tilasta. Tämän luvun [esimerkkivihkossa](./code_samples/10_autogen_evaluation.ipynb) näytämme, miltä nämä mittarit näyttävät todellisissa esimerkeissä, mutta ensin opimme, miltä tyypillinen arviointityönkulku näyttää.
+Käytännössä näiden mittareiden yhdistelmä antaa parhaan kattavuuden AI-agentin tilasta. Tämän luvun [esimerkkivihkossa](code_samples/10_autogen_evaluation.ipynb) näytämme, miltä nämä mittarit näyttävät todellisissa esimerkeissä, mutta ensin opimme, miltä tyypillinen arviointityönkulku näyttää.
 
 ## Instrumentoi agenttisi
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-Tämän luvun [esimerkkivihko](./code_samples/10_autogen_evaluation.ipynb) näyttää, kuinka instrumentoit AutoGen-agenttisi.
+Tämän luvun [esimerkkivihko](code_samples/10_autogen_evaluation.ipynb) näyttää, kuinka instrumentoit AutoGen-agenttisi.
 
 **Manuaalinen spanien luominen:** Vaikka instrumentointikirjastot tarjoavat hyvän perustan, on usein tapauksia, joissa tarvitaan yksityiskohtaisempaa tai mukautettua tietoa. Voit luoda spanit manuaalisesti lisätäksesi mukautettua sovelluslogiikkaa. Vielä tärkeämpää on, että ne voivat rikastaa automaattisesti tai manuaalisesti luotuja spaneja mukautetuilla attribuuteilla (tunnetaan myös nimillä tagit tai metadata). Nämä attribuutit voivat sisältää liiketoimintakohtaista dataa, välilaskelmia tai mitä tahansa kontekstia, joka voi olla hyödyllistä vianetsinnässä tai analyysissä, kuten `user_id`, `session_id` tai `model_version`.
 
@@ -167,7 +167,7 @@ Tässä on joitakin strategioita AI-agenttien tuotantokäytön kustannusten hall
 
 ## Katsotaan, miten tämä toimii käytännössä
 
-[Esimerkkimuistikirjassa tämän osion kohdalla](./code_samples/10_autogen_evaluation.ipynb) näemme esimerkkejä siitä, kuinka voimme käyttää havaittavuustyökaluja agenttien seurantaan ja arviointiin.
+[Esimerkkimuistikirjassa tämän osion kohdalla](code_samples/10_autogen_evaluation.ipynb) näemme esimerkkejä siitä, kuinka voimme käyttää havaittavuustyökaluja agenttien seurantaan ja arviointiin.
 
 ### Onko sinulla lisää kysymyksiä AI-agenteista tuotantokäytössä?
 

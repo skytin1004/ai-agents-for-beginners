@@ -263,7 +263,7 @@ pprint(json.loads(response_content))
 }
 ```
 
-یک دفترچه نمونه با کد قبلی [اینجا](07-autogen.ipynb) موجود است.
+یک دفترچه نمونه با کد قبلی [اینجا](../../../07-planning-design/07-autogen.ipynb) موجود است.
 
 ### برنامه‌ریزی تکراری
 

@@ -66,7 +66,7 @@ Hier zijn enkele van de meest voorkomende metrics die door observatietools worde
 
 **Geautomatiseerde evaluatiemetrics:** Je kunt ook geautomatiseerde evaluaties instellen. Bijvoorbeeld, je kunt een LLM gebruiken om de output van de agent te scoren, bijvoorbeeld of deze nuttig, nauwkeurig of niet is. Er zijn ook verschillende open source-bibliotheken die je helpen om verschillende aspecten van de agent te scoren. Bijvoorbeeld [RAGAS](https://docs.ragas.io/) voor RAG-agenten of [LLM Guard](https://llm-guard.com/) om schadelijke taal of promptinjectie te detecteren.
 
-In de praktijk biedt een combinatie van deze metrics de beste dekking van de gezondheid van een AI-agent. In het [voorbeeldnotebook](./code_samples/10_autogen_evaluation.ipynb) van dit hoofdstuk laten we zien hoe deze metrics eruitzien in echte voorbeelden, maar eerst leren we hoe een typische evaluatieworkflow eruitziet.
+In de praktijk biedt een combinatie van deze metrics de beste dekking van de gezondheid van een AI-agent. In het [voorbeeldnotebook](code_samples/10_autogen_evaluation.ipynb) van dit hoofdstuk laten we zien hoe deze metrics eruitzien in echte voorbeelden, maar eerst leren we hoe een typische evaluatieworkflow eruitziet.
 
 ## Instrumenteer je agent
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-Het [voorbeeldnotebook](./code_samples/10_autogen_evaluation.ipynb) in dit hoofdstuk demonstreert hoe je je AutoGen-agent kunt instrumenteren.
+Het [voorbeeldnotebook](code_samples/10_autogen_evaluation.ipynb) in dit hoofdstuk demonstreert hoe je je AutoGen-agent kunt instrumenteren.
 
 **Handmatige spancreatie:** Hoewel instrumentatielibraries een goede basis bieden, zijn er vaak gevallen waarin meer gedetailleerde of aangepaste informatie nodig is. Je kunt handmatig spans creëren om aangepaste toepassingslogica toe te voegen. Belangrijker nog, je kunt automatisch of handmatig gecreëerde spans verrijken met aangepaste attributen (ook wel tags of metadata genoemd). Deze attributen kunnen bedrijfsspecifieke gegevens, tussentijdse berekeningen of context bevatten die nuttig kan zijn voor debugging of analyse, zoals `user_id`, `session_id` of `model_version`.
 
@@ -161,7 +161,7 @@ Hier zijn enkele strategieën om de kosten van het inzetten van AI-agents in pro
 
 ## Laten we zien hoe dit in de praktijk werkt
 
-In het [voorbeeldnotebook van deze sectie](./code_samples/10_autogen_evaluation.ipynb) zien we voorbeelden van hoe we observatiehulpmiddelen kunnen gebruiken om onze agent te monitoren en evalueren.
+In het [voorbeeldnotebook van deze sectie](code_samples/10_autogen_evaluation.ipynb) zien we voorbeelden van hoe we observatiehulpmiddelen kunnen gebruiken om onze agent te monitoren en evalueren.
 
 ### Meer Vragen over AI-Agents in Productie?
 

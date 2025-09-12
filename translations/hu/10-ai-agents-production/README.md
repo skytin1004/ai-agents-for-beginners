@@ -66,7 +66,7 @@ Az ügynök viselkedésének nyomon követéséhez és megértéséhez számos m
 
 **Automatizált értékelési metrikák:** Automatizált értékeléseket is beállíthatsz. Például használhatsz egy LLM-et az ügynök kimenetének pontozására, például hogy hasznos-e, pontos-e vagy sem. Számos nyílt forráskódú könyvtár is segít az ügynök különböző aspektusainak pontozásában. Például [RAGAS](https://docs.ragas.io/) RAG ügynökökhöz vagy [LLM Guard](https://llm-guard.com/) káros nyelvezet vagy prompt injekció észlelésére.
 
-A gyakorlatban ezeknek a metrikáknak a kombinációja nyújtja a legjobb lefedettséget az AI ügynök egészségéről. Ebben a fejezetben [példa notebookban](./code_samples/10_autogen_evaluation.ipynb) megmutatjuk, hogyan néznek ki ezek a metrikák valós példákban, de először megtanuljuk, hogyan néz ki egy tipikus értékelési munkafolyamat.
+A gyakorlatban ezeknek a metrikáknak a kombinációja nyújtja a legjobb lefedettséget az AI ügynök egészségéről. Ebben a fejezetben [példa notebookban](code_samples/10_autogen_evaluation.ipynb) megmutatjuk, hogyan néznek ki ezek a metrikák valós példákban, de először megtanuljuk, hogyan néz ki egy tipikus értékelési munkafolyamat.
 
 ## Instrumentáld az ügynöködet
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-A fejezet [példa notebookja](./code_samples/10_autogen_evaluation.ipynb) bemutatja, hogyan instrumentálhatod az AutoGen ügynöködet.
+A fejezet [példa notebookja](code_samples/10_autogen_evaluation.ipynb) bemutatja, hogyan instrumentálhatod az AutoGen ügynöködet.
 
 **Manuális szakasz létrehozás:** Bár az instrumentációs könyvtárak jó alapot biztosítanak, gyakran előfordulnak olyan esetek, amikor részletesebb vagy egyedi információkra van szükség. Manuálisan is létrehozhatsz szakaszokat, hogy egyedi alkalmazáslogikát adj hozzá. Ennél is fontosabb, hogy gazdagíthatod az automatikusan vagy manuálisan létrehozott szakaszokat egyedi attribútumokkal (más néven címkék vagy metaadatok). Ezek az attribútumok tartalmazhatnak üzleti specifikus adatokat, köztes számításokat vagy bármilyen kontextust, amely hasznos lehet a hibakereséshez vagy elemzéshez, például `user_id`, `session_id` vagy `model_version`.
 
@@ -142,7 +142,7 @@ Az AI ügynökök gyártási környezetbe történő telepítésének költsége
 
 ## Nézzük meg, hogyan működik ez a gyakorlatban
 
-Az [e szakasz példafüzetében](./code_samples/10_autogen_evaluation.ipynb) példákat láthatunk arra, hogyan használhatjuk a megfigyelési eszközöket az ügynökök monitorozására és értékelésére.
+Az [e szakasz példafüzetében](code_samples/10_autogen_evaluation.ipynb) példákat láthatunk arra, hogyan használhatjuk a megfigyelési eszközöket az ügynökök monitorozására és értékelésére.
 
 ### További kérdései vannak az AI ügynökökkel kapcsolatban?
 

@@ -66,7 +66,7 @@ Ecco alcune delle metriche più comuni monitorate dagli strumenti di osservabili
 
 **Metriche di Valutazione Automatica:** Puoi anche configurare valutazioni automatiche. Ad esempio, puoi utilizzare un LLM per valutare il risultato dell'agente, ad esempio se è utile, accurato o meno. Esistono anche diverse librerie open source che ti aiutano a valutare diversi aspetti dell'agente. Ad esempio, [RAGAS](https://docs.ragas.io/) per agenti RAG o [LLM Guard](https://llm-guard.com/) per rilevare linguaggio dannoso o iniezione di prompt.
 
-In pratica, una combinazione di queste metriche offre la migliore copertura sulla salute di un agente AI. Nell'[esempio di notebook](./code_samples/10_autogen_evaluation.ipynb) di questo capitolo, ti mostreremo come appaiono queste metriche in esempi reali, ma prima impareremo come appare un tipico flusso di lavoro di valutazione.
+In pratica, una combinazione di queste metriche offre la migliore copertura sulla salute di un agente AI. Nell'[esempio di notebook](code_samples/10_autogen_evaluation.ipynb) di questo capitolo, ti mostreremo come appaiono queste metriche in esempi reali, ma prima impareremo come appare un tipico flusso di lavoro di valutazione.
 
 ## Strumentare il tuo Agente
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-L'[esempio di notebook](./code_samples/10_autogen_evaluation.ipynb) in questo capitolo dimostrerà come strumentare il tuo agente AutoGen.
+L'[esempio di notebook](code_samples/10_autogen_evaluation.ipynb) in questo capitolo dimostrerà come strumentare il tuo agente AutoGen.
 
 **Creazione Manuale di Spans:** Sebbene le librerie di strumentazione forniscano una buona base, ci sono spesso casi in cui sono necessarie informazioni più dettagliate o personalizzate. Puoi creare manualmente spans per aggiungere logica applicativa personalizzata. Ancora più importante, possono arricchire gli spans creati automaticamente o manualmente con attributi personalizzati (noti anche come tag o metadati). Questi attributi possono includere dati specifici per il business, calcoli intermedi o qualsiasi contesto utile per il debug o l'analisi, come `user_id`, `session_id` o `model_version`.
 
@@ -161,7 +161,7 @@ Ecco alcune strategie per gestire i costi del deployment degli agenti AI in prod
 
 ## Vediamo come funziona in pratica
 
-Nell'[notebook di esempio di questa sezione](./code_samples/10_autogen_evaluation.ipynb), vedremo esempi di come possiamo utilizzare strumenti di osservabilità per monitorare e valutare il nostro agente.
+Nell'[notebook di esempio di questa sezione](code_samples/10_autogen_evaluation.ipynb), vedremo esempi di come possiamo utilizzare strumenti di osservabilità per monitorare e valutare il nostro agente.
 
 
 ### Hai altre domande sugli Agenti AI in Produzione?

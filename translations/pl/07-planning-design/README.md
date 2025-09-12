@@ -264,7 +264,7 @@ Poniżej znajduje się wynik poprzedniego kodu, który można następnie wykorzy
 }
 ```
 
-Przykładowy notebook z poprzednim fragmentem kodu jest dostępny [tutaj](07-autogen.ipynb).
+Przykładowy notebook z poprzednim fragmentem kodu jest dostępny [tutaj](../../../07-planning-design/07-autogen.ipynb).
 
 ### Iteracyjne planowanie
 

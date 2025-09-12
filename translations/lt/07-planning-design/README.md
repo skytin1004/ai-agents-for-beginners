@@ -264,7 +264,7 @@ Toliau pateikiama ankstesnio kodo išvestis, kurią galite naudoti norėdami nuk
 }
 ```
 
-Ankstesnio kodo pavyzdžio užrašų knygelę galite rasti [čia](07-autogen.ipynb).
+Ankstesnio kodo pavyzdžio užrašų knygelę galite rasti [čia](../../../07-planning-design/07-autogen.ipynb).
 
 ### Iteratyvus planavimas
 

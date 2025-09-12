@@ -263,7 +263,7 @@ Ce urmează este output-ul din codul anterior, iar apoi puteți utiliza acest ou
 }
 ```
 
-Un notebook de exemplu cu codul anterior este disponibil [aici](07-autogen.ipynb).
+Un notebook de exemplu cu codul anterior este disponibil [aici](../../../07-planning-design/07-autogen.ipynb).
 
 ### Planificare Iterativă
 

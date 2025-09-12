@@ -264,7 +264,7 @@ O que se segue é a saída do código anterior e pode então usar esta saída es
 }
 ```
 
-Um notebook de exemplo com o código anterior está disponível [aqui](07-autogen.ipynb).
+Um notebook de exemplo com o código anterior está disponível [aqui](../../../07-planning-design/07-autogen.ipynb).
 
 ### Planeamento Iterativo
 

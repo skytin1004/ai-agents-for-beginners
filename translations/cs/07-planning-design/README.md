@@ -264,7 +264,7 @@ Výstup z předchozího kódu můžete použít k nasměrování na `assigned_ag
 }
 ```
 
-Příklad notebooku s předchozí ukázkou kódu je dostupný [zde](07-autogen.ipynb).
+Příklad notebooku s předchozí ukázkou kódu je dostupný [zde](../../../07-planning-design/07-autogen.ipynb).
 
 ### Iterativní plánování
 

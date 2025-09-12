@@ -264,7 +264,7 @@ Nedan visas output från föregående kod, och du kan sedan använda denna struk
 }
 ```
 
-Ett exempel på en notebook med föregående kod finns [här](07-autogen.ipynb).
+Ett exempel på en notebook med föregående kod finns [här](../../../07-planning-design/07-autogen.ipynb).
 
 ### Iterativ planering
 

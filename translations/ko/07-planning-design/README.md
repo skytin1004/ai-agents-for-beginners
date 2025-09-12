@@ -263,7 +263,7 @@ pprint(json.loads(response_content))
 }
 ```
 
-이전 코드 샘플이 포함된 예제 노트북은 [여기](07-autogen.ipynb)에서 확인할 수 있습니다.
+이전 코드 샘플이 포함된 예제 노트북은 [여기](../../../07-planning-design/07-autogen.ipynb)에서 확인할 수 있습니다.
 
 ### 반복적 계획
 

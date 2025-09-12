@@ -66,7 +66,7 @@ Aquí tienes algunas de las métricas más comunes que las herramientas de obser
 
 **Métricas de Evaluación Automatizada:** También puedes configurar evaluaciones automatizadas. Por ejemplo, puedes usar un LLM para puntuar la salida del agente, evaluando si es útil, precisa o no. También hay varias bibliotecas de código abierto que te ayudan a puntuar diferentes aspectos del agente. Por ejemplo, [RAGAS](https://docs.ragas.io/) para agentes RAG o [LLM Guard](https://llm-guard.com/) para detectar lenguaje dañino o inyecciones de prompts.
 
-En la práctica, una combinación de estas métricas proporciona la mejor cobertura sobre la salud de un agente de IA. En el [notebook de ejemplo](./code_samples/10_autogen_evaluation.ipynb) de este capítulo, te mostraremos cómo se ven estas métricas en ejemplos reales, pero primero aprenderemos cómo es un flujo de trabajo típico de evaluación.
+En la práctica, una combinación de estas métricas proporciona la mejor cobertura sobre la salud de un agente de IA. En el [notebook de ejemplo](code_samples/10_autogen_evaluation.ipynb) de este capítulo, te mostraremos cómo se ven estas métricas en ejemplos reales, pero primero aprenderemos cómo es un flujo de trabajo típico de evaluación.
 
 ## Instrumenta tu Agente
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-El [notebook de ejemplo](./code_samples/10_autogen_evaluation.ipynb) en este capítulo demostrará cómo instrumentar tu agente AutoGen.
+El [notebook de ejemplo](code_samples/10_autogen_evaluation.ipynb) en este capítulo demostrará cómo instrumentar tu agente AutoGen.
 
 **Creación Manual de Spans:** Aunque las bibliotecas de instrumentación proporcionan una buena base, a menudo hay casos donde se necesita información más detallada o personalizada. Puedes crear spans manualmente para agregar lógica personalizada de la aplicación. Más importante aún, pueden enriquecer spans creados automáticamente o manualmente con atributos personalizados (también conocidos como etiquetas o metadatos). Estos atributos pueden incluir datos específicos del negocio, cálculos intermedios o cualquier contexto que pueda ser útil para la depuración o el análisis, como `user_id`, `session_id` o `model_version`.
 
@@ -169,7 +169,7 @@ Aquí tienes algunas estrategias para gestionar los costos de implementar agente
 
 ## Veamos cómo funciona esto en la práctica
 
-En el [notebook de ejemplo de esta sección](./code_samples/10_autogen_evaluation.ipynb), veremos ejemplos de cómo podemos usar herramientas de observabilidad para monitorear y evaluar nuestro agente.
+En el [notebook de ejemplo de esta sección](code_samples/10_autogen_evaluation.ipynb), veremos ejemplos de cómo podemos usar herramientas de observabilidad para monitorear y evaluar nuestro agente.
 
 ### ¿Tienes Más Preguntas sobre Agentes de IA en Producción?
 

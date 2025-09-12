@@ -66,7 +66,7 @@ Ajan davranışını izlemek ve anlamak için bir dizi metrik ve sinyal izlenmel
 
 **Otomatik Değerlendirme Metrikleri:** Otomatik değerlendirmeler de ayarlayabilirsiniz. Örneğin, bir LLM'yi ajanın çıktısını puanlamak için kullanabilirsiniz, örneğin, yardımcı olup olmadığı, doğru olup olmadığı gibi. Ayrıca, ajanın farklı yönlerini puanlamanıza yardımcı olan birkaç açık kaynak kütüphanesi vardır. Örneğin, [RAGAS](https://docs.ragas.io/) RAG ajanları için veya [LLM Guard](https://llm-guard.com/) zararlı dil veya istem enjeksiyonunu tespit etmek için.
 
-Pratikte, bu metriklerin bir kombinasyonu bir AI ajanın sağlığını en iyi şekilde kapsar. Bu bölümün [örnek not defterinde](./code_samples/10_autogen_evaluation.ipynb), bu metriklerin gerçek örneklerde nasıl göründüğünü göstereceğiz, ancak önce tipik bir değerlendirme iş akışının nasıl göründüğünü öğreneceğiz.
+Pratikte, bu metriklerin bir kombinasyonu bir AI ajanın sağlığını en iyi şekilde kapsar. Bu bölümün [örnek not defterinde](code_samples/10_autogen_evaluation.ipynb), bu metriklerin gerçek örneklerde nasıl göründüğünü göstereceğiz, ancak önce tipik bir değerlendirme iş akışının nasıl göründüğünü öğreneceğiz.
 
 ## Ajanınızı Enstrüman Edin
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-Bu bölümdeki [örnek not defteri](./code_samples/10_autogen_evaluation.ipynb), AutoGen ajanınızı nasıl enstrüman edeceğinizi gösterecektir.
+Bu bölümdeki [örnek not defteri](code_samples/10_autogen_evaluation.ipynb), AutoGen ajanınızı nasıl enstrüman edeceğinizi gösterecektir.
 
 **Manuel Aralık Oluşturma:** Enstrümantasyon kütüphaneleri iyi bir temel sağlar, ancak genellikle daha ayrıntılı veya özel bilgilere ihtiyaç duyulan durumlar vardır. Manuel olarak aralıklar oluşturabilir ve özel uygulama mantığı ekleyebilirsiniz. Daha da önemlisi, otomatik veya manuel olarak oluşturulan aralıkları özel özniteliklerle (etiketler veya meta veriler olarak da bilinir) zenginleştirebilirsiniz. Bu öznitelikler, hata ayıklama veya analiz için yararlı olabilecek iş spesifik verileri, ara hesaplamaları veya herhangi bir bağlamı içerebilir, örneğin `user_id`, `session_id` veya `model_version`.
 
@@ -168,7 +168,7 @@ AI ajanlarını üretime alırken maliyetleri yönetmek için bazı stratejiler:
 
 ## Bunu Pratikte Nasıl Uygulayabiliriz?
 
-Bu bölümün [örnek not defterinde](./code_samples/10_autogen_evaluation.ipynb), ajanlarımızı izlemek ve değerlendirmek için gözlemlenebilirlik araçlarını nasıl kullanabileceğimize dair örnekler göreceğiz.
+Bu bölümün [örnek not defterinde](code_samples/10_autogen_evaluation.ipynb), ajanlarımızı izlemek ve değerlendirmek için gözlemlenebilirlik araçlarını nasıl kullanabileceğimize dair örnekler göreceğiz.
 
 ### AI Ajanları Hakkında Daha Fazla Sorunuz mu Var?
 

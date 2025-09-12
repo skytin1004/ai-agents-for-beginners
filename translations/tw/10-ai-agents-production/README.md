@@ -66,7 +66,7 @@ _**注意：** 部署安全且值得信賴的AI代理非常重要。請參考[�
 
 **自動評估指標（Automated Evaluation Metrics）：** 您還可以設置自動評估。例如，您可以使用LLM對代理的輸出進行評分，例如是否有幫助、準確或無害。還有一些開源庫可以幫助您評分代理的不同方面。例如，[RAGAS](https://docs.ragas.io/)用於RAG代理，[LLM Guard](https://llm-guard.com/)用於檢測有害語言或提示注入。
 
-實際上，這些指標的組合能提供AI代理健康狀況的最佳覆蓋。在本章的[示例筆記本](./code_samples/10_autogen_evaluation.ipynb)中，我們將展示這些指標在實際案例中的樣子，但首先，我們將學習典型的評估工作流程。
+實際上，這些指標的組合能提供AI代理健康狀況的最佳覆蓋。在本章的[示例筆記本](code_samples/10_autogen_evaluation.ipynb)中，我們將展示這些指標在實際案例中的樣子，但首先，我們將學習典型的評估工作流程。
 
 ## 為代理添加監控功能
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-本章的[示例筆記本](./code_samples/10_autogen_evaluation.ipynb)將演示如何為AutoGen代理添加監控功能。
+本章的[示例筆記本](code_samples/10_autogen_evaluation.ipynb)將演示如何為AutoGen代理添加監控功能。
 
 **手動創建跨度（Manual Span Creation）：** 雖然儀表庫提供了良好的基礎，但在某些情況下可能需要更詳細或自定義的信息。您可以手動創建跨度以添加自定義應用邏輯。更重要的是，您可以為自動或手動創建的跨度添加自定義屬性（也稱為標籤或元數據）。這些屬性可以包括業務特定數據、中間計算或任何可能對調試或分析有用的上下文，例如`user_id`、`session_id`或`model_version`。
 

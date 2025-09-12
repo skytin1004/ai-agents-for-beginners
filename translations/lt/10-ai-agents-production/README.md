@@ -66,7 +66,7 @@ Norint stebėti ir suprasti agentų elgesį, reikia sekti įvairius rodiklius ir
 
 **Automatizuoti vertinimo rodikliai:** Taip pat galite nustatyti automatizuotus vertinimus. Pavyzdžiui, galite naudoti LLM, kad įvertintumėte agento išvestį, pvz., ar ji naudinga, tiksli ar ne. Taip pat yra keletas atvirojo kodo bibliotekų, kurios padeda įvertinti skirtingus agento aspektus, pvz., [RAGAS](https://docs.ragas.io/) RAG agentams arba [LLM Guard](https://llm-guard.com/) žalingos kalbos ar užklausų injekcijos aptikimui.
 
-Praktiškai geriausią agento sveikatos stebėjimą užtikrina šių rodiklių derinys. Šio skyriaus [pavyzdžių užrašinėje](./code_samples/10_autogen_evaluation.ipynb) parodysime, kaip šie rodikliai atrodo realiuose pavyzdžiuose, tačiau pirmiausia išmoksime, kaip atrodo tipinis vertinimo darbo srautas.
+Praktiškai geriausią agento sveikatos stebėjimą užtikrina šių rodiklių derinys. Šio skyriaus [pavyzdžių užrašinėje](code_samples/10_autogen_evaluation.ipynb) parodysime, kaip šie rodikliai atrodo realiuose pavyzdžiuose, tačiau pirmiausia išmoksime, kaip atrodo tipinis vertinimo darbo srautas.
 
 ## Instrumentuokite savo agentą
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-Šio skyriaus [pavyzdžių užrašinėje](./code_samples/10_autogen_evaluation.ipynb) bus parodyta, kaip instrumentuoti savo AutoGen agentą.
+Šio skyriaus [pavyzdžių užrašinėje](code_samples/10_autogen_evaluation.ipynb) bus parodyta, kaip instrumentuoti savo AutoGen agentą.
 
 **Rankinis spans kūrimas:** Nors instrumentavimo bibliotekos suteikia gerą pagrindą, dažnai būna atvejų, kai reikia detalesnės ar pritaikytos informacijos. Galite rankiniu būdu kurti spans, kad pridėtumėte pritaikytą programos logiką. Dar svarbiau, kad jie gali praturtinti automatiškai ar rankiniu būdu sukurtus spans pritaikytais atributais (dar vadinamais žymėmis ar metaduomenimis). Šie atributai gali apimti verslo specifinius duomenis, tarpinius skaičiavimus ar bet kokį kontekstą, kuris gali būti naudingas derinimui ar analizei, pvz., `user_id`, `session_id` ar `model_version`.
 
@@ -148,7 +148,7 @@ Daugelį šių problemų galima efektyviau nustatyti, jei yra stebėjimo priemon
 
 ## Pažiūrėkime, kaip tai veikia praktikoje
 
-Šiame [šios skilties pavyzdiniame užrašų knygelėje](./code_samples/10_autogen_evaluation.ipynb) pamatysime pavyzdžius, kaip galime naudoti stebėjimo įrankius agentų stebėjimui ir vertinimui.
+Šiame [šios skilties pavyzdiniame užrašų knygelėje](code_samples/10_autogen_evaluation.ipynb) pamatysime pavyzdžius, kaip galime naudoti stebėjimo įrankius agentų stebėjimui ir vertinimui.
 
 ### Turite daugiau klausimų apie AI agentus gamyboje?
 

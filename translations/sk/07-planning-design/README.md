@@ -264,7 +264,7 @@ Nasleduje výstup z predchádzajúceho kódu, ktorý môžete použiť na presme
 }
 ```
 
-Príklad notebooku s predchádzajúcim kódom je dostupný [tu](07-autogen.ipynb).
+Príklad notebooku s predchádzajúcim kódom je dostupný [tu](../../../07-planning-design/07-autogen.ipynb).
 
 ### Iteratívne plánovanie
 

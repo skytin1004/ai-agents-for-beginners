@@ -264,7 +264,7 @@ Det følgende er output fra den tidligere kode, og du kan derefter bruge dette s
 }
 ```
 
-En eksempel-notebook med den tidligere kode er tilgængelig [her](07-autogen.ipynb).
+En eksempel-notebook med den tidligere kode er tilgængelig [her](../../../07-planning-design/07-autogen.ipynb).
 
 ### Iterativ planlægning
 

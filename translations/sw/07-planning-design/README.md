@@ -263,7 +263,7 @@ Kinachofuata ni matokeo kutoka kwa msimbo uliopita na unaweza kisha kutumia mato
 }
 ```
 
-Mfano wa daftari na msimbo wa awali unapatikana [hapa](07-autogen.ipynb).
+Mfano wa daftari na msimbo wa awali unapatikana [hapa](../../../07-planning-design/07-autogen.ipynb).
 
 ### Mipango ya Kurudia
 

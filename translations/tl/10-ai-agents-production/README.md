@@ -66,7 +66,7 @@ Narito ang ilan sa mga pinaka-karaniwang sukatan na sinusubaybayan ng mga tool s
 
 **Automated Evaluation Metrics:** Maaari ka ring mag-set up ng automated evals. Halimbawa, maaari mong gamitin ang isang LLM upang i-score ang output ng agent, halimbawa kung ito ay kapaki-pakinabang, tumpak, o hindi. Mayroon ding ilang open source libraries na tumutulong sa pag-score ng iba't ibang aspeto ng agent. Halimbawa, [RAGAS](https://docs.ragas.io/) para sa mga RAG agent o [LLM Guard](https://llm-guard.com/) upang matukoy ang mapanganib na wika o prompt injection.
 
-Sa praktika, ang kombinasyon ng mga sukatan na ito ang nagbibigay ng pinakamahusay na coverage ng kalusugan ng AI agent. Sa [halimbawang notebook](./code_samples/10_autogen_evaluation.ipynb) ng kabanatang ito, ipapakita namin kung paano ang mga sukatan na ito ay mukhang sa mga tunay na halimbawa ngunit una, matututo tayo kung paano ang isang tipikal na workflow ng pagsusuri.
+Sa praktika, ang kombinasyon ng mga sukatan na ito ang nagbibigay ng pinakamahusay na coverage ng kalusugan ng AI agent. Sa [halimbawang notebook](code_samples/10_autogen_evaluation.ipynb) ng kabanatang ito, ipapakita namin kung paano ang mga sukatan na ito ay mukhang sa mga tunay na halimbawa ngunit una, matututo tayo kung paano ang isang tipikal na workflow ng pagsusuri.
 
 ## Instrumento ang Iyong Agent
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-Ang [halimbawang notebook](./code_samples/10_autogen_evaluation.ipynb) sa kabanatang ito ay magpapakita kung paano mag-instrument ng iyong AutoGen agent.
+Ang [halimbawang notebook](code_samples/10_autogen_evaluation.ipynb) sa kabanatang ito ay magpapakita kung paano mag-instrument ng iyong AutoGen agent.
 
 **Manwal na Paglikha ng Span:** Bagama't ang mga instrumentation libraries ay nagbibigay ng magandang baseline, may mga kaso kung saan mas detalyado o custom na impormasyon ang kinakailangan. Maaari kang manu-manong lumikha ng mga span upang magdagdag ng custom na application logic. Mas mahalaga, maaari nilang pagyamanin ang awtomatiko o manu-manong nilikhang mga span gamit ang mga custom na attribute (kilala rin bilang mga tag o metadata). Ang mga attribute na ito ay maaaring magsama ng business-specific na data, intermediate computations, o anumang konteksto na maaaring maging kapaki-pakinabang para sa pag-debug o pagsusuri, tulad ng `user_id`, `session_id`, o `model_version`.
 
@@ -167,7 +167,7 @@ Narito ang ilang mga estratehiya upang pamahalaan ang gastos sa pag-deploy ng AI
 
 ## Tingnan Natin Kung Paano Ito Gumagana sa Praktika
 
-Sa [halimbawang notebook ng seksyong ito](./code_samples/10_autogen_evaluation.ipynb), makikita natin ang mga halimbawa kung paano natin magagamit ang mga observability tools upang i-monitor at i-evaluate ang ating agent.
+Sa [halimbawang notebook ng seksyong ito](code_samples/10_autogen_evaluation.ipynb), makikita natin ang mga halimbawa kung paano natin magagamit ang mga observability tools upang i-monitor at i-evaluate ang ating agent.
 
 ### May Karagdagang Tanong Tungkol sa AI Agents sa Production?
 

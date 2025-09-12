@@ -263,7 +263,7 @@ Az előző kód kimenete alapján a strukturált kimenetet az `assigned_agent`-h
 }
 ```
 
-Egy példa jegyzetfüzet az előző kódmintával elérhető [itt](07-autogen.ipynb).
+Egy példa jegyzetfüzet az előző kódmintával elérhető [itt](../../../07-planning-design/07-autogen.ipynb).
 
 ### Iteratív tervezés
 

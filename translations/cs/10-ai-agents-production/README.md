@@ -66,7 +66,7 @@ Zde jsou některé z nejběžnějších metrik, které nástroje pro observabili
 
 **Automatizované hodnotící metriky:** Můžete také nastavit automatizované hodnocení. Například můžete použít LLM k ohodnocení výstupu agenta, např. zda je užitečný, přesný nebo ne. Existuje také několik open-source knihoven, které vám pomohou hodnotit různé aspekty agenta. Např. [RAGAS](https://docs.ragas.io/) pro RAG agenty nebo [LLM Guard](https://llm-guard.com/) pro detekci škodlivého jazyka nebo injekce promptů.
 
-V praxi kombinace těchto metrik poskytuje nejlepší přehled o zdraví AI agenta. V [ukázkovém notebooku](./code_samples/10_autogen_evaluation.ipynb) této kapitoly vám ukážeme, jak tyto metriky vypadají na reálných příkladech, ale nejprve se naučíme, jak vypadá typický hodnotící pracovní postup.
+V praxi kombinace těchto metrik poskytuje nejlepší přehled o zdraví AI agenta. V [ukázkovém notebooku](code_samples/10_autogen_evaluation.ipynb) této kapitoly vám ukážeme, jak tyto metriky vypadají na reálných příkladech, ale nejprve se naučíme, jak vypadá typický hodnotící pracovní postup.
 
 ## Instrumentace vašeho agenta
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-[Ukázkový notebook](./code_samples/10_autogen_evaluation.ipynb) v této kapitole ukáže, jak instrumentovat vašeho agenta AutoGen.
+[Ukázkový notebook](code_samples/10_autogen_evaluation.ipynb) v této kapitole ukáže, jak instrumentovat vašeho agenta AutoGen.
 
 **Ruční vytváření spans:** I když knihovny pro instrumentaci poskytují dobrý základ, často existují případy, kdy je potřeba podrobnější nebo vlastní informace. Můžete ručně vytvářet spans pro přidání vlastní aplikační logiky. Důležitější je, že mohou obohatit automaticky nebo ručně vytvořené spans o vlastní atributy (také známé jako tagy nebo metadata). Tyto atributy mohou zahrnovat obchodně specifická data, mezivýpočty nebo jakýkoli kontext, který by mohl být užitečný pro ladění nebo analýzu, jako je `user_id`, `session_id` nebo `model_version`.
 
@@ -171,7 +171,7 @@ Zde jsou některé strategie, jak řídit náklady při nasazení AI agentů do 
 
 ## Jak to funguje v praxi
 
-V [příkladovém notebooku této sekce](./code_samples/10_autogen_evaluation.ipynb) uvidíme příklady, jak můžeme použít nástroje pro observabilitu k monitorování a hodnocení našeho agenta.
+V [příkladovém notebooku této sekce](code_samples/10_autogen_evaluation.ipynb) uvidíme příklady, jak můžeme použít nástroje pro observabilitu k monitorování a hodnocení našeho agenta.
 
 ### Máte další otázky ohledně AI agentů v produkci?
 

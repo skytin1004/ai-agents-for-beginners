@@ -66,7 +66,7 @@ Tukaj je nekaj najpogostejših metrik, ki jih orodja za opazovanje spremljajo:
 
 **Avtomatizirane ocenjevalne metrike:** Lahko nastavite tudi avtomatizirane ocene. Na primer, lahko uporabite LLM za ocenjevanje izhoda agenta, npr. ali je koristen, točen ali ne. Obstajajo tudi številne odprtokodne knjižnice, ki pomagajo oceniti različne vidike agenta. Na primer, [RAGAS](https://docs.ragas.io/) za RAG agente ali [LLM Guard](https://llm-guard.com/) za zaznavanje škodljivega jezika ali vbrizgavanja pozivov.
 
-V praksi kombinacija teh metrik zagotavlja najboljši pregled nad zdravjem AI agenta. V [primeru zvezka](./code_samples/10_autogen_evaluation.ipynb) v tem poglavju vam bomo pokazali, kako te metrike izgledajo v resničnih primerih, vendar se najprej naučimo, kako izgleda tipičen potek ocenjevanja.
+V praksi kombinacija teh metrik zagotavlja najboljši pregled nad zdravjem AI agenta. V [primeru zvezka](code_samples/10_autogen_evaluation.ipynb) v tem poglavju vam bomo pokazali, kako te metrike izgledajo v resničnih primerih, vendar se najprej naučimo, kako izgleda tipičen potek ocenjevanja.
 
 ## Instrumentiranje vašega agenta
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-[Primer zvezka](./code_samples/10_autogen_evaluation.ipynb) v tem poglavju bo pokazal, kako instrumentirati vašega agenta AutoGen.
+[Primer zvezka](code_samples/10_autogen_evaluation.ipynb) v tem poglavju bo pokazal, kako instrumentirati vašega agenta AutoGen.
 
 **Ročno ustvarjanje razponov:** Čeprav knjižnice za instrumentiranje zagotavljajo dobro osnovo, pogosto obstajajo primeri, ko so potrebne podrobnejše ali prilagojene informacije. Razpone lahko ročno ustvarite za dodajanje prilagojene logike aplikacije. Še pomembneje, lahko obogatite samodejno ali ročno ustvarjene razpone s prilagojenimi atributi (znanimi tudi kot oznake ali metapodatki). Ti atributi lahko vključujejo poslovno specifične podatke, vmesne izračune ali katero koli kontekstualno informacijo, ki bi lahko bila koristna za odpravljanje napak ali analizo, kot so `user_id`, `session_id` ali `model_version`.
 
@@ -170,7 +170,7 @@ Tukaj je nekaj strategij za upravljanje stroškov pri uvajanju AI agentov v prod
 
 ## Poglejmo, kako to deluje v praksi
 
-V [primerjalni beležki tega razdelka](./code_samples/10_autogen_evaluation.ipynb) bomo videli primere, kako lahko uporabimo orodja za opazljivost za spremljanje in ocenjevanje našega agenta.
+V [primerjalni beležki tega razdelka](code_samples/10_autogen_evaluation.ipynb) bomo videli primere, kako lahko uporabimo orodja za opazljivost za spremljanje in ocenjevanje našega agenta.
 
 ### Imate več vprašanj o AI agentih v produkciji?
 

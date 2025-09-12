@@ -66,7 +66,7 @@ Iată câteva dintre cele mai comune metrici pe care instrumentele de observabil
 
 **Metrici de Evaluare Automată:** Poți configura evaluări automate. De exemplu, poți utiliza un LLM pentru a evalua rezultatul agentului, de exemplu, dacă este util, precis sau nu. Există, de asemenea, mai multe biblioteci open source care te ajută să evaluezi diferite aspecte ale agentului. De exemplu, [RAGAS](https://docs.ragas.io/) pentru agenți RAG sau [LLM Guard](https://llm-guard.com/) pentru detectarea limbajului dăunător sau injecției de prompturi.
 
-În practică, o combinație a acestor metrici oferă cea mai bună acoperire a sănătății unui agent AI. În [notebook-ul exemplu](./code_samples/10_autogen_evaluation.ipynb) din acest capitol, îți vom arăta cum arată aceste metrici în exemple reale, dar mai întâi vom învăța cum arată un flux de lucru tipic de evaluare.
+În practică, o combinație a acestor metrici oferă cea mai bună acoperire a sănătății unui agent AI. În [notebook-ul exemplu](code_samples/10_autogen_evaluation.ipynb) din acest capitol, îți vom arăta cum arată aceste metrici în exemple reale, dar mai întâi vom învăța cum arată un flux de lucru tipic de evaluare.
 
 ## Instrumentarea Agentului
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-[Notebook-ul exemplu](./code_samples/10_autogen_evaluation.ipynb) din acest capitol va demonstra cum să instrumentezi un agent AutoGen.
+[Notebook-ul exemplu](code_samples/10_autogen_evaluation.ipynb) din acest capitol va demonstra cum să instrumentezi un agent AutoGen.
 
 **Crearea Manuală a Etapelor:** Deși bibliotecile de instrumentare oferă o bază bună, există adesea cazuri în care sunt necesare informații mai detaliate sau personalizate. Poți crea manual etape pentru a adăuga logică personalizată a aplicației. Mai important, acestea pot îmbogăți etapele create automat sau manual cu atribute personalizate (cunoscute și sub numele de etichete sau metadate). Aceste atribute pot include date specifice afacerii, calcule intermediare sau orice context care ar putea fi util pentru depanare sau analiză, cum ar fi `user_id`, `session_id` sau `model_version`.
 
@@ -169,7 +169,7 @@ Iată câteva strategii pentru a gestiona costurile implementării agenților AI
 
 ## Să vedem cum funcționează în practică
 
-În [notebook-ul exemplu al acestei secțiuni](./code_samples/10_autogen_evaluation.ipynb), vom vedea exemple despre cum putem utiliza instrumentele de observabilitate pentru a monitoriza și evalua agentul.
+În [notebook-ul exemplu al acestei secțiuni](code_samples/10_autogen_evaluation.ipynb), vom vedea exemple despre cum putem utiliza instrumentele de observabilitate pentru a monitoriza și evalua agentul.
 
 ### Aveți mai multe întrebări despre agenții AI în producție?
 

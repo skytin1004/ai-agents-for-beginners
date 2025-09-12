@@ -262,7 +262,7 @@ Segue l'output del codice precedente e puoi quindi utilizzare questo output stru
 }
 ```
 
-Un notebook di esempio con il codice precedente è disponibile [qui](07-autogen.ipynb).
+Un notebook di esempio con il codice precedente è disponibile [qui](../../../07-planning-design/07-autogen.ipynb).
 
 ### Pianificazione Iterativa
 

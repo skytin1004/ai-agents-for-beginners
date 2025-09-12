@@ -263,7 +263,7 @@ Voici la sortie du code précédent, que vous pouvez ensuite utiliser pour route
 }
 ```
 
-Un exemple de notebook avec le code précédent est disponible [ici](07-autogen.ipynb).
+Un exemple de notebook avec le code précédent est disponible [ici](../../../07-planning-design/07-autogen.ipynb).
 
 ### Planification itérative
 

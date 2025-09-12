@@ -66,7 +66,7 @@ Dưới đây là một số chỉ số phổ biến mà các công cụ quan s�
 
 **Các Chỉ Số Đánh Giá Tự Động:** Bạn cũng có thể thiết lập các đánh giá tự động. Ví dụ: bạn có thể sử dụng một LLM để chấm điểm đầu ra của tác nhân, ví dụ: liệu nó có hữu ích, chính xác hay không. Ngoài ra, có một số thư viện mã nguồn mở giúp bạn chấm điểm các khía cạnh khác nhau của tác nhân. Ví dụ: [RAGAS](https://docs.ragas.io/) cho các tác nhân RAG hoặc [LLM Guard](https://llm-guard.com/) để phát hiện ngôn ngữ có hại hoặc tiêm lệnh.
 
-Trong thực tế, sự kết hợp của các chỉ số này mang lại phạm vi tốt nhất về sức khỏe của tác nhân AI. Trong [notebook ví dụ](./code_samples/10_autogen_evaluation.ipynb) của chương này, chúng tôi sẽ chỉ cho bạn cách các chỉ số này trông như thế nào trong các ví dụ thực tế, nhưng trước tiên, chúng ta sẽ tìm hiểu cách một quy trình đánh giá điển hình hoạt động.
+Trong thực tế, sự kết hợp của các chỉ số này mang lại phạm vi tốt nhất về sức khỏe của tác nhân AI. Trong [notebook ví dụ](code_samples/10_autogen_evaluation.ipynb) của chương này, chúng tôi sẽ chỉ cho bạn cách các chỉ số này trông như thế nào trong các ví dụ thực tế, nhưng trước tiên, chúng ta sẽ tìm hiểu cách một quy trình đánh giá điển hình hoạt động.
 
 ## Triển Khai Công Cụ Giám Sát Cho Tác Nhân
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-[Notebook ví dụ](./code_samples/10_autogen_evaluation.ipynb) trong chương này sẽ minh họa cách triển khai công cụ giám sát cho tác nhân AutoGen của bạn.
+[Notebook ví dụ](code_samples/10_autogen_evaluation.ipynb) trong chương này sẽ minh họa cách triển khai công cụ giám sát cho tác nhân AutoGen của bạn.
 
 **Tạo Khoảng Thời Gian Thủ Công:** Mặc dù các thư viện triển khai công cụ giám sát cung cấp một cơ sở tốt, nhưng thường có những trường hợp cần thông tin chi tiết hoặc tùy chỉnh hơn. Bạn có thể tạo các khoảng thời gian thủ công để thêm logic ứng dụng tùy chỉnh. Quan trọng hơn, chúng có thể làm phong phú các khoảng thời gian được tạo tự động hoặc thủ công với các thuộc tính tùy chỉnh (còn được gọi là thẻ hoặc siêu dữ liệu). Các thuộc tính này có thể bao gồm dữ liệu cụ thể của doanh nghiệp, các tính toán trung gian, hoặc bất kỳ ngữ cảnh nào có thể hữu ích cho việc gỡ lỗi hoặc phân tích, chẳng hạn như `user_id`, `session_id`, hoặc `model_version`.
 
@@ -169,7 +169,7 @@ Dưới đây là một số chiến lược để quản lý chi phí khi tri�
 
 ## Hãy Xem Cách Hoạt Động Trong Thực Tế
 
-Trong [notebook ví dụ của phần này](./code_samples/10_autogen_evaluation.ipynb), chúng ta sẽ xem các ví dụ về cách sử dụng các công cụ quan sát để giám sát và đánh giá agent.
+Trong [notebook ví dụ của phần này](code_samples/10_autogen_evaluation.ipynb), chúng ta sẽ xem các ví dụ về cách sử dụng các công cụ quan sát để giám sát và đánh giá agent.
 
 ### Có Thắc Mắc Thêm Về AI Agents Trong Sản Xuất?
 

@@ -264,7 +264,7 @@ Det som følger er output fra den forrige koden, og du kan deretter bruke denne 
 }
 ```
 
-En eksempelnotatbok med den forrige koden er tilgjengelig [her](07-autogen.ipynb).
+En eksempelnotatbok med den forrige koden er tilgjengelig [her](../../../07-planning-design/07-autogen.ipynb).
 
 ### Iterativ planlegging
 

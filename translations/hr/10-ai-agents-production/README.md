@@ -66,7 +66,7 @@ Evo nekih od najčešćih metrika koje alati za promatranje prate:
 
 **Automatizirane evaluacijske metrike:** Također možete postaviti automatizirane evaluacije. Na primjer, možete koristiti LLM za ocjenjivanje rezultata agenta, npr. je li koristan, točan ili nije. Postoji i nekoliko open source biblioteka koje pomažu u ocjenjivanju različitih aspekata agenta. Npr. [RAGAS](https://docs.ragas.io/) za RAG agente ili [LLM Guard](https://llm-guard.com/) za otkrivanje štetnog jezika ili ubrizgavanja upita.
 
-U praksi, kombinacija ovih metrika daje najbolji pregled zdravlja AI agenta. U [primjeru bilježnice](./code_samples/10_autogen_evaluation.ipynb) ovog poglavlja pokazat ćemo kako ove metrike izgledaju u stvarnim primjerima, ali prvo ćemo naučiti kako izgleda tipičan evaluacijski tijek rada.
+U praksi, kombinacija ovih metrika daje najbolji pregled zdravlja AI agenta. U [primjeru bilježnice](code_samples/10_autogen_evaluation.ipynb) ovog poglavlja pokazat ćemo kako ove metrike izgledaju u stvarnim primjerima, ali prvo ćemo naučiti kako izgleda tipičan evaluacijski tijek rada.
 
 ## Instrumentiranje vašeg agenta
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-[Primjer bilježnice](./code_samples/10_autogen_evaluation.ipynb) u ovom poglavlju pokazat će kako instrumentirati vaš AutoGen agent.
+[Primjer bilježnice](code_samples/10_autogen_evaluation.ipynb) u ovom poglavlju pokazat će kako instrumentirati vaš AutoGen agent.
 
 **Ručno stvaranje segmenata:** Iako biblioteke za instrumentiranje pružaju dobru osnovu, često postoje slučajevi kada je potrebno više detaljnih ili prilagođenih informacija. Možete ručno stvoriti segmente kako biste dodali prilagođenu logiku aplikacije. Još važnije, možete obogatiti automatski ili ručno stvorene segmente prilagođenim atributima (poznatim i kao oznake ili metapodaci). Ti atributi mogu uključivati poslovno specifične podatke, međukalkulacije ili bilo koji kontekst koji bi mogao biti koristan za otklanjanje grešaka ili analizu, poput `user_id`, `session_id` ili `model_version`.
 
@@ -161,7 +161,7 @@ Evo nekoliko strategija za upravljanje troškovima implementacije AI agenata u p
 
 ## Pogledajmo kako ovo funkcionira u praksi
 
-U [primjeru bilježnice ovog odjeljka](./code_samples/10_autogen_evaluation.ipynb), vidjet ćemo primjere kako možemo koristiti alate za praćenje i evaluaciju naših agenata.
+U [primjeru bilježnice ovog odjeljka](code_samples/10_autogen_evaluation.ipynb), vidjet ćemo primjere kako možemo koristiti alate za praćenje i evaluaciju naših agenata.
 
 ### Imate još pitanja o AI agentima u produkciji?
 

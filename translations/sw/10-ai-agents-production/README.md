@@ -66,7 +66,7 @@ Hapa kuna baadhi ya vipimo vya kawaida ambavyo zana za ufuatiliaji hufuatilia:
 
 **Vipimo vya Tathmini ya Kiotomatiki:** Unaweza pia kuweka tathmini za kiotomatiki. Kwa mfano, unaweza kutumia LLM kupima matokeo ya wakala, mfano ikiwa ni ya msaada, sahihi, au la. Kuna pia maktaba kadhaa za chanzo huria zinazokusaidia kupima vipengele tofauti vya wakala. Mfano, [RAGAS](https://docs.ragas.io/) kwa mawakala wa RAG au [LLM Guard](https://llm-guard.com/) kugundua lugha hatari au sindano ya maelezo.
 
-Kwa vitendo, mchanganyiko wa vipimo hivi hutoa uelewa bora wa afya ya wakala wa AI. Katika [notibuku ya mfano](./code_samples/10_autogen_evaluation.ipynb) ya sura hii, tutaonyesha jinsi vipimo hivi vinavyoonekana katika mifano halisi lakini kwanza, tutajifunza jinsi mtiririko wa kawaida wa tathmini unavyoonekana.
+Kwa vitendo, mchanganyiko wa vipimo hivi hutoa uelewa bora wa afya ya wakala wa AI. Katika [notibuku ya mfano](code_samples/10_autogen_evaluation.ipynb) ya sura hii, tutaonyesha jinsi vipimo hivi vinavyoonekana katika mifano halisi lakini kwanza, tutajifunza jinsi mtiririko wa kawaida wa tathmini unavyoonekana.
 
 ## Weka Vifaa Kwenye Wakala Wako
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-[Notibuku ya mfano](./code_samples/10_autogen_evaluation.ipynb) katika sura hii itaonyesha jinsi ya kuweka vifaa kwenye wakala wako wa AutoGen.
+[Notibuku ya mfano](code_samples/10_autogen_evaluation.ipynb) katika sura hii itaonyesha jinsi ya kuweka vifaa kwenye wakala wako wa AutoGen.
 
 **Uundaji wa Vipande kwa Mkono:** Wakati maktaba za kuweka vifaa zinatoa msingi mzuri, mara nyingi kuna matukio ambapo habari ya kina zaidi au maalum inahitajika. Unaweza kuunda vipande kwa mkono ili kuongeza mantiki maalum ya programu. Muhimu zaidi, vinaweza kuimarisha vipande vilivyoundwa kiotomatiki au kwa mkono na sifa maalum (pia zinajulikana kama lebo au metadata). Sifa hizi zinaweza kujumuisha data maalum ya biashara, mahesabu ya kati, au muktadha wowote ambao unaweza kuwa muhimu kwa utatuzi wa hitilafu au uchambuzi, kama `user_id`, `session_id`, au `model_version`.
 
@@ -165,7 +165,7 @@ Hapa kuna mikakati ya kusimamia gharama za kupeleka mawakala wa AI kwenye uzalis
 
 ## Hebu Tuone Jinsi Hii Inavyofanya Kazi Kwenye Mazoezi
 
-Katika [notebook ya mfano wa sehemu hii](./code_samples/10_autogen_evaluation.ipynb), tutaona mifano ya jinsi tunavyoweza kutumia zana za ufuatiliaji kufuatilia na kutathmini wakala wetu.
+Katika [notebook ya mfano wa sehemu hii](code_samples/10_autogen_evaluation.ipynb), tutaona mifano ya jinsi tunavyoweza kutumia zana za ufuatiliaji kufuatilia na kutathmini wakala wetu.
 
 ### Una Maswali Zaidi Kuhusu Mawakala wa AI Kwenye Uzalishaji?
 

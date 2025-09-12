@@ -264,7 +264,7 @@ Lo que sigue es la salida del código anterior y luego puedes usar esta salida e
 }
 ```
 
-Un cuaderno de ejemplo con el código anterior está disponible [aquí](07-autogen.ipynb).
+Un cuaderno de ejemplo con el código anterior está disponible [aquí](../../../07-planning-design/07-autogen.ipynb).
 
 ### Planificación Iterativa
 

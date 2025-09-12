@@ -264,7 +264,7 @@ Ang sumusunod ay ang output mula sa nakaraang code at maaari mong gamitin ang st
 }
 ```
 
-Isang halimbawa ng notebook na may nakaraang code sample ay makikita [dito](07-autogen.ipynb).
+Isang halimbawa ng notebook na may nakaraang code sample ay makikita [dito](../../../07-planning-design/07-autogen.ipynb).
 
 ### Iterative Planning
 

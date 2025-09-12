@@ -66,7 +66,7 @@ Berikut adalah beberapa metrik paling umum yang dipantau oleh alat observabilita
 
 **Metrik Evaluasi Otomatis:** Anda juga dapat mengatur evaluasi otomatis. Misalnya, Anda dapat menggunakan LLM untuk menilai output agen, misalnya apakah itu membantu, akurat, atau tidak. Ada juga beberapa pustaka open source yang membantu Anda menilai berbagai aspek agen. Misalnya, [RAGAS](https://docs.ragas.io/) untuk agen RAG atau [LLM Guard](https://llm-guard.com/) untuk mendeteksi bahasa berbahaya atau injeksi prompt.
 
-Dalam praktiknya, kombinasi metrik ini memberikan cakupan terbaik terhadap kesehatan agen AI. Dalam [notebook contoh](./code_samples/10_autogen_evaluation.ipynb) bab ini, kami akan menunjukkan bagaimana metrik ini terlihat dalam contoh nyata, tetapi pertama-tama, kami akan mempelajari bagaimana alur kerja evaluasi yang khas terlihat.
+Dalam praktiknya, kombinasi metrik ini memberikan cakupan terbaik terhadap kesehatan agen AI. Dalam [notebook contoh](code_samples/10_autogen_evaluation.ipynb) bab ini, kami akan menunjukkan bagaimana metrik ini terlihat dalam contoh nyata, tetapi pertama-tama, kami akan mempelajari bagaimana alur kerja evaluasi yang khas terlihat.
 
 ## Instrumentasi Agen Anda
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-[Notebook contoh](./code_samples/10_autogen_evaluation.ipynb) dalam bab ini akan menunjukkan cara menginstrumentasi agen AutoGen Anda.
+[Notebook contoh](code_samples/10_autogen_evaluation.ipynb) dalam bab ini akan menunjukkan cara menginstrumentasi agen AutoGen Anda.
 
 **Pembuatan Rentang Manual:** Meskipun pustaka instrumentasi menyediakan baseline yang baik, sering kali ada kasus di mana informasi yang lebih rinci atau khusus diperlukan. Anda dapat membuat rentang secara manual untuk menambahkan logika aplikasi khusus. Lebih penting lagi, mereka dapat memperkaya rentang yang dibuat secara otomatis atau manual dengan atribut khusus (juga dikenal sebagai tag atau metadata). Atribut ini dapat mencakup data spesifik bisnis, perhitungan antara, atau konteks apa pun yang mungkin berguna untuk debugging atau analisis, seperti `user_id`, `session_id`, atau `model_version`.
 
@@ -167,7 +167,7 @@ Berikut adalah beberapa strategi untuk mengelola biaya dalam menerapkan agen AI 
 
 ## Mari Lihat Bagaimana Ini Bekerja dalam Praktik
 
-Dalam [notebook contoh pada bagian ini](./code_samples/10_autogen_evaluation.ipynb), kita akan melihat contoh bagaimana kita dapat menggunakan alat observabilitas untuk memantau dan mengevaluasi agen kita.
+Dalam [notebook contoh pada bagian ini](code_samples/10_autogen_evaluation.ipynb), kita akan melihat contoh bagaimana kita dapat menggunakan alat observabilitas untuk memantau dan mengevaluasi agen kita.
 
 ### Ada Pertanyaan Lebih Lanjut tentang Agen AI di Produksi?
 

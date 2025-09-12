@@ -66,7 +66,7 @@ Aqui estão algumas das métricas mais comuns monitorizadas por ferramentas de o
 
 **Métricas de Avaliação Automática:** Também pode configurar avaliações automáticas. Por exemplo, pode usar um LLM para pontuar a saída do agente, avaliando se é útil, precisa ou não. Existem também várias bibliotecas open source que ajudam a pontuar diferentes aspetos do agente. Por exemplo, [RAGAS](https://docs.ragas.io/) para agentes RAG ou [LLM Guard](https://llm-guard.com/) para detetar linguagem prejudicial ou injeção de prompts.
 
-Na prática, uma combinação destas métricas oferece a melhor cobertura da saúde de um agente de IA. No [notebook de exemplo](./code_samples/10_autogen_evaluation.ipynb) deste capítulo, mostraremos como estas métricas aparecem em exemplos reais, mas primeiro aprenderemos como é um fluxo de trabalho típico de avaliação.
+Na prática, uma combinação destas métricas oferece a melhor cobertura da saúde de um agente de IA. No [notebook de exemplo](code_samples/10_autogen_evaluation.ipynb) deste capítulo, mostraremos como estas métricas aparecem em exemplos reais, mas primeiro aprenderemos como é um fluxo de trabalho típico de avaliação.
 
 ## Instrumentar o seu Agente
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-O [notebook de exemplo](./code_samples/10_autogen_evaluation.ipynb) deste capítulo demonstrará como instrumentar o seu agente AutoGen.
+O [notebook de exemplo](code_samples/10_autogen_evaluation.ipynb) deste capítulo demonstrará como instrumentar o seu agente AutoGen.
 
 **Criação Manual de Spans:** Embora as bibliotecas de instrumentação forneçam uma boa base, há casos em que informações mais detalhadas ou personalizadas são necessárias. Pode criar spans manualmente para adicionar lógica de aplicação personalizada. Mais importante, pode enriquecer spans criados automaticamente ou manualmente com atributos personalizados (também conhecidos como tags ou metadados). Estes atributos podem incluir dados específicos do negócio, cálculos intermédios ou qualquer contexto que possa ser útil para depuração ou análise, como `user_id`, `session_id` ou `model_version`.
 
@@ -168,7 +168,7 @@ Aqui estão algumas estratégias para gerir os custos de implementar agentes de 
 
 ## Vamos ver como isto funciona na prática
 
-No [notebook de exemplo desta secção](./code_samples/10_autogen_evaluation.ipynb), veremos exemplos de como podemos usar ferramentas de observabilidade para monitorizar e avaliar o nosso agente.
+No [notebook de exemplo desta secção](code_samples/10_autogen_evaluation.ipynb), veremos exemplos de como podemos usar ferramentas de observabilidade para monitorizar e avaliar o nosso agente.
 
 ### Tem Mais Perguntas sobre Agentes de IA em Produção?
 

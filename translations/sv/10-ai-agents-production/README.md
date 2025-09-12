@@ -66,7 +66,7 @@ Här är några av de vanligaste mätvärdena som observabilitetsverktyg överva
 
 **Automatiserade utvärderingsmätvärden:** Du kan också ställa in automatiserade utvärderingar. Till exempel kan du använda en LLM för att betygsätta agentens output, t.ex. om den är hjälpsam, korrekt eller inte. Det finns också flera open source-bibliotek som hjälper dig att betygsätta olika aspekter av agenten. T.ex. [RAGAS](https://docs.ragas.io/) för RAG-agenter eller [LLM Guard](https://llm-guard.com/) för att upptäcka skadligt språk eller promptinjektion.
 
-I praktiken ger en kombination av dessa mätvärden den bästa täckningen av en AI-agents hälsa. I detta kapitels [exempeldokument](./code_samples/10_autogen_evaluation.ipynb) visar vi hur dessa mätvärden ser ut i verkliga exempel, men först ska vi lära oss hur ett typiskt utvärderingsarbetsflöde ser ut.
+I praktiken ger en kombination av dessa mätvärden den bästa täckningen av en AI-agents hälsa. I detta kapitels [exempeldokument](code_samples/10_autogen_evaluation.ipynb) visar vi hur dessa mätvärden ser ut i verkliga exempel, men först ska vi lära oss hur ett typiskt utvärderingsarbetsflöde ser ut.
 
 ## Instrumentera din agent
 
@@ -82,7 +82,7 @@ import openlit
 openlit.init(tracer = langfuse._otel_tracer, disable_batch = True)
 ```
 
-[Exempeldokumentet](./code_samples/10_autogen_evaluation.ipynb) i detta kapitel kommer att demonstrera hur du instrumenterar din AutoGen-agent.
+[Exempeldokumentet](code_samples/10_autogen_evaluation.ipynb) i detta kapitel kommer att demonstrera hur du instrumenterar din AutoGen-agent.
 
 **Manuell skapande av spans:** Även om instrumenteringsbibliotek ger en bra grund finns det ofta fall där mer detaljerad eller anpassad information behövs. Du kan manuellt skapa spans för att lägga till anpassad applikationslogik. Ännu viktigare är att de kan berika automatiskt eller manuellt skapade spans med anpassade attribut (även kända som taggar eller metadata). Dessa attribut kan inkludera affärsspecifik data, mellanliggande beräkningar eller någon kontext som kan vara användbar för felsökning eller analys, såsom `user_id`, `session_id` eller `model_version`.
 
@@ -167,7 +167,7 @@ Här är några strategier för att hantera kostnaderna för att distribuera AI-
 
 ## Låt oss se hur detta fungerar i praktiken
 
-I [exempeldagboken för detta avsnitt](./code_samples/10_autogen_evaluation.ipynb) kommer vi att se exempel på hur vi kan använda observabilitetsverktyg för att övervaka och utvärdera våra agenter.
+I [exempeldagboken för detta avsnitt](code_samples/10_autogen_evaluation.ipynb) kommer vi att se exempel på hur vi kan använda observabilitetsverktyg för att övervaka och utvärdera våra agenter.
 
 ### Har du fler frågor om AI-agenter i produktion?
 
