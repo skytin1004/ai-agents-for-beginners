@@ -103,7 +103,6 @@
 | בניית סוכני בינה מלאכותית אמינים               | [קישור](./06-building-trustworthy-agents/README.md) | [סרטון](https://youtu.be/iZKkMEGBCUQ?si=jZjpiMnGFOE9L8OK ) | [קישור](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | דפוס עיצוב תכנון                                | [קישור](./07-planning-design/README.md)             | [סרטון](https://youtu.be/kPfJ2BrBCMY?si=6SC_iv_E5-mzucnC)  | [קישור](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | דפוס עיצוב רב-סוכני                            | [קישור](./08-multi-agent/README.md)                 | [סרטון](https://youtu.be/V6HpE9hZEx0?si=rMgDhEu7wXo2uo6g)  | [קישור](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
-
 | תבנית עיצוב מטה-קוגניציה                 | [קישור](./09-metacognition/README.md)               | [סרטון](https://youtu.be/His9R6gw6Ec?si=8gck6vvdSNCt6OcF)  | [קישור](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | סוכני AI בפרודקשן                       | [קישור](./10-ai-agents-production/README.md)        | [סרטון](https://youtu.be/l4TP6IyJxmQ?si=31dnhexRo6yLRJDl)  | [קישור](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | שימוש בפרוטוקולים אג'נטיים (MCP, A2A ו-NLWeb) | [קישור](./11-agentic-protocols/README.md)           | [סרטון](https://youtu.be/X-Dh9R3Opn8)                                 | [קישור](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |

@@ -103,7 +103,6 @@ AI 에이전트 개발 중 막히거나 질문이 있으면, [Microsoft Foundry 
 | 신뢰할 수 있는 AI 에이전트 구축                 | [링크](./06-building-trustworthy-agents/README.md) | [비디오](https://youtu.be/iZKkMEGBCUQ?si=jZjpiMnGFOE9L8OK ) | [링크](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | 계획 디자인 패턴                               | [링크](./07-planning-design/README.md)             | [비디오](https://youtu.be/kPfJ2BrBCMY?si=6SC_iv_E5-mzucnC)  | [링크](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | 다중 에이전트 디자인 패턴                       | [링크](./08-multi-agent/README.md)                 | [비디오](https://youtu.be/V6HpE9hZEx0?si=rMgDhEu7wXo2uo6g)  | [링크](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
-
 | 메타인지 디자인 패턴                 | [Link](./09-metacognition/README.md)               | [Video](https://youtu.be/His9R6gw6Ec?si=8gck6vvdSNCt6OcF)  | [Link](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | 프로덕션의 AI 에이전트                      | [Link](./10-ai-agents-production/README.md)        | [Video](https://youtu.be/l4TP6IyJxmQ?si=31dnhexRo6yLRJDl)  | [Link](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | 에이전틱 프로토콜 사용 (MCP, A2A 및 NLWeb) | [Link](./11-agentic-protocols/README.md)           | [Video](https://youtu.be/X-Dh9R3Opn8)                                 | [Link](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |

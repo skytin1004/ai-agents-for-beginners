@@ -103,7 +103,6 @@
 | নির্ভরযোগ্য AI এজেন্ট গঠন                  | [লিঙ্ক](./06-building-trustworthy-agents/README.md) | [ভিডিও](https://youtu.be/iZKkMEGBCUQ?si=jZjpiMnGFOE9L8OK ) | [লিঙ্ক](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | পরিকল্পনা ডিজাইন প্যাটার্ন                   | [লিঙ্ক](./07-planning-design/README.md)             | [ভিডিও](https://youtu.be/kPfJ2BrBCMY?si=6SC_iv_E5-mzucnC)  | [লিঙ্ক](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | বহু-এজেন্ট ডিজাইন প্যাটার্ন                 | [লিঙ্ক](./08-multi-agent/README.md)                 | [ভিডিও](https://youtu.be/V6HpE9hZEx0?si=rMgDhEu7wXo2uo6g)  | [লিঙ্ক](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
-
 | মেটাকগনিশন ডিজাইন প্যাটার্ন                 | [লিঙ্ক](./09-metacognition/README.md)               | [ভিডিও](https://youtu.be/His9R6gw6Ec?si=8gck6vvdSNCt6OcF)  | [লিঙ্ক](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | প্রোডাকশনে AI এজেন্ট                      | [লিঙ্ক](./10-ai-agents-production/README.md)        | [ভিডিও](https://youtu.be/l4TP6IyJxmQ?si=31dnhexRo6yLRJDl)  | [লিঙ্ক](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | এজেন্টিক প্রোটোকল ব্যবহৃত (MCP, A2A এবং NLWeb) | [লিঙ্ক](./11-agentic-protocols/README.md)           | [ভিডিও](https://youtu.be/X-Dh9R3Opn8)                                 | [লিঙ্ক](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |

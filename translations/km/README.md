@@ -103,7 +103,6 @@
 | កសាងអ្នកតំណាង AI ដែលគួរឱ្យទុកចិត្ត                | [តំណ](./06-building-trustworthy-agents/README.md)     | [វីដេអូ](https://youtu.be/iZKkMEGBCUQ?si=jZjpiMnGFOE9L8OK )  | [តំណ](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst)  |
 | លំនាំរចនាសម្រាប់ការធ្វើផែនការ                     | [តំណ](./07-planning-design/README.md)                 | [វីដេអូ](https://youtu.be/kPfJ2BrBCMY?si=6SC_iv_E5-mzucnC)   | [តំណ](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst)  |
 | លំនាំរចនាអ្នកតំណាងច្រើន                         | [តំណ](./08-multi-agent/README.md)                     | [វីដេអូ](https://youtu.be/V6HpE9hZEx0?si=rMgDhEu7wXo2uo6g)   | [តំណ](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst)  |
-
 | លំនាំការរចនាជាសម្រាប់ Meta ការគិត                | [Link](./09-metacognition/README.md)               | [Video](https://youtu.be/His9R6gw6Ec?si=8gck6vvdSNCt6OcF)  | [Link](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | ភ្នាក់ងារ AI នៅក្នុងការផលិត                      | [Link](./10-ai-agents-production/README.md)        | [Video](https://youtu.be/l4TP6IyJxmQ?si=31dnhexRo6yLRJDl)  | [Link](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | ការប្រើប្រាស់ពិព័រណ៍ផ្លូវ Agentic (MCP, A2A និង NLWeb) | [Link](./11-agentic-protocols/README.md)           | [Video](https://youtu.be/X-Dh9R3Opn8)                                 | [Link](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
